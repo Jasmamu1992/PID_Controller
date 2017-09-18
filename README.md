@@ -25,11 +25,11 @@ I used twiddle to obtain Kp, Ki and Kd. The parameters I obtained didnt quite wo
 
 From my tuning I observed that the controller performs almost the same for wide reange of combinations of Kp, Kd, Ki
 
-## fects of P I D componets in the implementation
+## Effects of P I D componets in the implementation
 
-P - helps the car to steer in proportion to CTE. P component is the preliminary part of the controller and it is the first parameter that should be tuned
-D - help to decrease the steer as the CTE decreases. D component is very important to reduce overshoots and obtain smooth steering. 
-I - this is intended to help if there is any steering offset, but in my observation I found that 'I' component even helps in extreme cases like steep turns when the proportional component is insufficient to steer the vehicle. 
+* P - helps the car to steer in proportion to CTE. P component is the preliminary part of the controller and it is the first parameter that should be tuned
+* D - help to decrease the steer as the CTE decreases. D component is very important to reduce overshoots and obtain smooth steering. 
+* I - this is intended to help if there is any steering offset, but in my observation I found that 'I' component even helps in extreme cases like steep turns when the proportional component is insufficient to steer the vehicle. 
 
 
 
